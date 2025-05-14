@@ -1,0 +1,10 @@
+spd=5;
+hspd = 0;
+vspd = 0;
+grv = 0.4;
+conta_qs = 0;
+maximo_q = 2;
+estado_sprite = 0 ;
+conta_es = 0;
+maximo_es = 10;
+dash_timer = 10;
