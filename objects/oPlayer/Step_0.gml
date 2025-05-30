@@ -1,4 +1,4 @@
-
+ 
 #region CONTROLES
 var key_right=keyboard_check(ord("D"))
 var key_left=keyboard_check(ord("A"))
@@ -133,3 +133,20 @@ if (dash_timer <= 0 or conta_es = maximo_es) and not side_dash
 		dash_timer = 10
 	    hspd = 0; // Para o movimento do dash
 	}
+	if place_meeting(x,y,oMercurio)
+	{
+	Mercurios = Mercurios+1
+	instance_destroy(oMercurio)
+	}
+	if place_meeting(x,y,oMercurio2)
+	{
+		Mercurios = Mercurios+1
+		instance_destroy(oMercurio2)
+	}
+	if place_meeting(x,y,oMercurio3)
+	{
+	Mercurios=Mercurios+1
+	instance_destroy(oMercurio3)
+	}
+	if Mercurios=3
+	room_goto(Room2)

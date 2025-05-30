@@ -39,6 +39,8 @@
     {"id":{"name":"oEspinhos","path":"objects/oEspinhos/oEspinhos.yy",},},
     {"id":{"name":"oEspinhosInvisiveis","path":"objects/oEspinhosInvisiveis/oEspinhosInvisiveis.yy",},},
     {"id":{"name":"oMercurio","path":"objects/oMercurio/oMercurio.yy",},},
+    {"id":{"name":"oMercurio2","path":"objects/oMercurio2/oMercurio2.yy",},},
+    {"id":{"name":"oMercurio3","path":"objects/oMercurio3/oMercurio3.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"oSobe","path":"objects/oSobe/oSobe.yy",},},
     {"id":{"name":"oSobeMais","path":"objects/oSobeMais/oSobeMais.yy",},},
