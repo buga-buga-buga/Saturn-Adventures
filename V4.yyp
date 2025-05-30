@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"V3",
+  "%Name":"V4",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -33,7 +33,7 @@
   "MetaData":{
     "IDEVersion":"2024.13.1.193",
   },
-  "name":"V3",
+  "name":"V4",
   "resources":[
     {"id":{"name":"oChao","path":"objects/oChao/oChao.yy",},},
     {"id":{"name":"oEspinhos","path":"objects/oEspinhos/oEspinhos.yy",},},
@@ -49,6 +49,8 @@
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"id":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"id":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
+    {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"id":{"name":"fundo1","path":"sprites/fundo1/fundo1.yy",},},
     {"id":{"name":"reserva","path":"sprites/reserva/reserva.yy",},},
     {"id":{"name":"sChao","path":"sprites/sChao/sChao.yy",},},
@@ -67,6 +69,7 @@
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},},
     {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
+    {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
     {"id":{"name":"sSobe","path":"sprites/sSobe/sSobe.yy",},},
     {"id":{"name":"sSobeMais","path":"sprites/sSobeMais/sSobeMais.yy",},},
   ],
@@ -78,6 +81,8 @@
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
     {"roomId":{"name":"Room5","path":"rooms/Room5/Room5.yy",},},
+    {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
+    {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
