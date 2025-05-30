@@ -5,6 +5,7 @@ var key_left=keyboard_check(ord("A"))
 var key_jump=keyboard_check(vk_space)
 var dash_up=keyboard_check(ord("Q"))
 var side_dash=keyboard_check(ord("E"))
+var reset=keyboard_check(ord("R"))
 // Verifica se está no chão
 var no_ar = !place_meeting(x, y+1, oChao);
 #endregion
@@ -133,3 +134,4 @@ if (dash_timer <= 0 or conta_es = maximo_es) and not side_dash
 		dash_timer = 10
 	    hspd = 0; // Para o movimento do dash
 	}
+	if reset room_restart()
