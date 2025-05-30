@@ -105,7 +105,7 @@ if side_dash
 && (conta_es < maximo_es) 
 && (dash_timer <= 10 and dash_timer <> 0 )
 {
-    show_debug_message("Iniciando dash lateral!");
+ //   show_debug_message("Iniciando dash lateral!");
 
     // Define o estado de dash lateral
     sprite_index = sPlayer_DashLado;
@@ -123,8 +123,8 @@ if side_dash
 	}
 } 
 
-if side_dash
-show_debug_message("timer" + string(dash_timer)+ " conta_es :" + string(conta_es) + string(sprite_index) + string(estado_sprite))	
+// if side_dash
+// show_debug_message("timer" + string(dash_timer)+ " conta_es :" + string(conta_es) + string(sprite_index) + string(estado_sprite))	
 
 if (dash_timer <= 0 or conta_es = maximo_es) and not side_dash
 {
