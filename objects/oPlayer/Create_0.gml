@@ -8,4 +8,4 @@ estado_sprite = 0 ;
 conta_es = 0;
 maximo_es = 10;
 dash_timer = 10;
-Mercurios = 0;
+contador=0
