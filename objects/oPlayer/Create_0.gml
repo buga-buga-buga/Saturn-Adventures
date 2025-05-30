@@ -9,4 +9,5 @@ conta_es = 0;
 maximo_es = 10;
 dash_timer = 10;
 contador=0
+Fase=0
 //global.Qual_Fase=1;

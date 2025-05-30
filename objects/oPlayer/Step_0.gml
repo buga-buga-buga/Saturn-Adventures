@@ -135,3 +135,21 @@ if (dash_timer <= 0 or conta_es = maximo_es) and not side_dash
 	    hspd = 0; // Para o movimento do dash
 	}
 	if reset room_restart()
+	#region PAUSE
+	if oPlayer = Room8{
+	Fase = 1}
+	if oPlayer = Room1{
+	Fase = 2}
+	if oPlayer = Room2{
+	Fase = 3}
+	if oPlayer = Room3{
+	Fase = 4}
+	if oPlayer = Room4{
+	Fase = 5}
+	if oPlayer = Room5{
+	Fase = 6}
+	if oPlayer = Room6{
+	Fase = 7}
+	#endregion
+	if keyboard_check(ord("P"))
+	room_goto(Pause)
